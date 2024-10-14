@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Regist</title>
+</head>
+<body>
+    <main>
+        <fieldset>
+            <legend>Информация о пользователе</legend>
+
+            <label for="text">Имя</label>
+            <input name="text" id="text" type="text" placeholder="Введите имя">
+
+            <label for="text">Фамилия</label>
+            <input name="text" id="text" type="text" placeholder="Введите Фамилию">
+
+            <label for="pass">Пароль</label>
+            <input name="pass" id="pass" type="password" placeholder="Введите Пароль">            
+        </fieldset>
+
+        <fieldset>
+            <legend>Выберите ваш пол</legend>
+            
+            <input type="radio" id="male" name="se" value="male">
+            <label for="male">Мужской</label>
+
+            <input type="radio" id="famele" name="se" value="male">
+            <label for="famele">Женский</label>
+        </fieldset>
+
+        <fieldset>
+            
+            <legend>Выбор продукта</legend>
+
+            <input type="checkbox" id="pizza" name="product" value="pizza">
+            <label for="pizza">Пицца</label>
+
+            <input type="checkbox" id="pasta" name="product" value="pasta">
+            <label for="pasta">Паста</label>
+
+            <input type="checkbox" id="rolls" name="product" value="rolls">
+            <label for="rolls">Роллы</label>
+        </fieldset>
+
+        <fieldset>
+            <select>
+                <option value="sale">Скидка</option>
+
+                <option value="noSale">Нет скидки</option>
+            </select>
+        </fieldset>
+
+        <form action="#">
+            <input type="submit" id="submit" class="but">
+        </form>
+        
+    </main>
+</body>
+</html>
